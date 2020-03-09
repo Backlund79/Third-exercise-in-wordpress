@@ -1,0 +1,97 @@
+section.hero {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+
+section.hero.small {
+	height: 250px;
+}
+
+section.hero .container,
+section.hero .row,
+section.hero .column {
+	height: 100%;
+}
+
+section.hero .column {
+	position: relative;
+}
+
+section.hero .text {
+	color: white;
+	font-size: 22px;
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	text-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+	top: 50%;
+	transform: translateY(-50%);
+	width: 66.66666667%;
+}
+
+section.hero .text h1 {
+	font-size: 50px;
+}
+
+#header .menu {
+	/* float: right; */
+	margin: 0;
+	padding: 0 0 0 12px;
+}
+
+
+ #header .menu li {
+	background-color: rgba(0, 0, 0, 0.2);
+	display: inline-block;
+	line-height: 50px;
+	list-style: none; 
+	margin-left: 5px; 
+	padding: 0 15px;
+	transition: 0.3s ease;
+	border-radius: 10px;
+} 
+
+#header .menu li.current-menu-item,
+#header .menu li:hover {
+	background-color: #333;
+}
+
+#header .menu li a {
+	color: white;
+}
+
+ul.sub-menu {
+	display: inline-flex;
+}
+
+
+
+.navbar span h4 {
+	color: white;
+	padding: 0 0 0 10px;
+}
+
+section.break .grey {
+	background-color: #232323;
+	height: 80px;
+	color: white;
+
+}
+
+section.break h2 {
+	padding: 20px;
+}
+
+#cards {
+	margin-top: 8px;
+}
+
+footer {
+	height: 200px;
+	background-color: #232323;
+	color: white;
+}
